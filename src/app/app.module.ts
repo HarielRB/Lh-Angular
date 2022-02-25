@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { BlocoVagasComponent } from './bloco-vagas/bloco-vagas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlocoVagasComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

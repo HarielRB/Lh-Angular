@@ -1,0 +1,24 @@
+{
+    "vagas": [{
+            "id": 1001,
+            "nome": "Desenvolvedor front-end",
+            "foto": "foto1.png",
+            "descricao": "Trabalhar com Angular",
+            "salario": 1500
+        },
+        {
+            "id": 1002,
+            "nome": "Desenvolvedor fullstack",
+            "foto": "foto2.png",
+            "descricao": "Trabalhar com JavaSpring e SQL",
+            "salario": 4500
+        },
+        {
+            "id": 1003,
+            "nome": "Desenvolvedor back-end",
+            "foto": "foto3.png",
+            "descricao": "Trabalhar com Python",
+            "salario": 2500
+        }
+    ]
+}
